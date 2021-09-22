@@ -3,7 +3,7 @@ from discord.ext import commands
 
 client = commands.Bot(command_prefix='--')
 
-TOKEN = 'ODcxOTE4MzU0NjAzMDY5NDQw.YQiTPw.pMxZCg_lGGxPBRd6nv2DkVxZtYg'  # Get at discordapp.com/developers/applications/me
+TOKEN = ''  # Get at discordapp.com/developers/applications/me
 
 @client.command(name='version')
 async def version(context):
